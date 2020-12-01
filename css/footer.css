@@ -1,0 +1,143 @@
+footer, .footer-div, .footer-left, .footer-right{
+    display: flex;
+    flex: 1;
+}
+
+footer{
+    background-color: white;
+    position: relative;
+    margin: auto auto 2vh auto;
+}
+
+.footer-div{
+    padding: 2rem;
+}
+
+
+.footer-left{
+    flex-direction: column;
+}
+
+.footer-logo-div{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-img{
+    height: 8vh;
+}
+
+.footer-logo-text{
+    padding-left: .5vw;
+}
+
+
+.sources{
+    margin: 2vh auto auto 0;
+}
+
+.footer-right > *{
+    flex: 1;
+}
+.footer-right{
+    display: flex;
+    flex: 3;
+    text-align: center;
+}
+
+.footer-title{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.box{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.footer-link{
+    margin: 0.4rem 0;
+}
+
+.footer-link a:hover{
+    padding: 2px;
+    border: 2px solid #9bc277;
+}
+
+.upBtn{
+    flex: unset;
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .sources{
+        margin: 2vh auto auto 0;
+    }
+    
+    .footer-right > *{
+        flex: 1;
+    }
+    .footer-right{
+        display: flex;
+        flex: 3;
+    }
+    
+    .footer-title{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    .box{
+        margin-top: .1rem;
+        font-size: 13px;
+    }
+
+    .footer-link{
+        margin: 0.4rem 0;
+    }
+
+    .upBtn{
+        flex: unset;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .footer-div{
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        padding: 30px 1vh 1vh 1vh;
+        width: 100%;
+    }
+
+    .footer-left{
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer-logo-div{
+        flex: 1;
+    }
+
+    .sources{
+        margin: 1vh auto;
+    }
+
+    .footer-right{
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        padding: 2vh;
+    }
+    .footer-title{
+        margin-top: 2vh;
+    }
+}
+
+@media screen and (max-height: 425px){
+    .footer-div{
+        height: 20vw;
+    }
+}

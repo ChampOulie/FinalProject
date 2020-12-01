@@ -1,0 +1,71 @@
+.mainbox {
+    width: 70%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.headerfont {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 900;
+    text-shadow: 0 0px 1px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.Data-tekst {
+    padding-bottom: 5%;
+    font-size: 1.3rem;
+}
+
+.Data-tekst h2 {
+    padding: 70px 0 2.5rem 4%;
+}
+
+.Data-tekst h3 {
+    padding-bottom: 6px;
+}
+
+.questions {
+    margin: 0.7rem 0% 3rem 4%;
+}
+
+.questions p {
+    /* letter-spacing: 0.3px; */
+    line-height: 1.8rem;
+}
+
+@media screen and (max-width: 1247px) {
+    .mainbox {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1001px) {
+    .Data-tekst h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .mainbox {
+        width: 80%;
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .Data-tekst {
+        padding-bottom: 5%;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .Data-tekst h2 {
+        padding: 45px 0% 25px 4%;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .headerfont {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,327 @@
+main {
+    background-color: whitesmoke;
+}
+
+section {
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.presentation {
+    height: 87.7vh;
+    background: url("../media/vegetarianFeast.jpg") center no-repeat fixed;
+
+    /* Customized gradient on: https://cssgradient.io/ */
+    background: -moz-linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(0, 0, 0, 0.5998774509803921) 30%,
+            rgba(0, 0, 0, 0.6026785714285714) 36%,
+            rgba(0, 0, 0, 0.5970763305322129) 42%,
+            rgba(255, 255, 255, 0) 100%
+        ),
+        url("../media/vegetarianFeast.jpg") center no-repeat fixed;
+
+    background: -webkit-linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(0, 0, 0, 0.5998774509803921) 30%,
+            rgba(0, 0, 0, 0.6026785714285714) 36%,
+            rgba(0, 0, 0, 0.5970763305322129) 42%,
+            rgba(255, 255, 255, 0) 100%
+        ),
+        url("../media/vegetarianFeast.jpg") center no-repeat fixed;
+
+    background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(0, 0, 0, 0.5998774509803921) 30%,
+            rgba(0, 0, 0, 0.6026785714285714) 36%,
+            rgba(0, 0, 0, 0.5970763305322129) 42%,
+            rgba(255, 255, 255, 0) 100%
+        ),
+        url("../media/vegetarianFeast.jpg") center no-repeat fixed;
+
+    position: relative;
+}
+
+.introduction {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-text h1 {
+    font-size: calc(30px + 2vw);
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    font-family: "Quicksand", "Cabin Sketch", sans-serif;
+    font-variant: small-caps;
+
+    color: whitesmoke;
+    text-shadow: 0px 0px 8px #000000, -3px -2px 3px rgb(0, 0, 0);
+    padding-bottom: 180px;
+}
+
+.green {
+    color: #9bc277;
+    text-transform: uppercase;
+    font-family: "Cabin Sketch", sans-serif;
+}
+
+.pink {
+    color: darkorange;
+    text-transform: uppercase;
+    font-family: "Cabin Sketch", sans-serif;
+}
+
+#main-section {
+    min-height: 39rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.rowflex {
+    display: flex;
+    flex-direction: row;
+    margin-top: calc(150px - 10vw);
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 2;
+    width: 70%;
+    font-size: 1.3rem;
+    margin: auto;
+}
+
+.main-text h2 {
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 2%;
+}
+
+.main-p {
+    padding-top: 16px;
+}
+
+.second-p {
+    padding-top: 16px;
+}
+
+.paragraph {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 200px;
+    margin-top: 10px;
+    padding-top: 80px;
+    line-height: 2rem;
+    letter-spacing: 0.06rem;
+    
+}
+
+.paragraph2 {
+
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20%;
+    margin-top: 80px;
+    line-height: 2rem;
+    letter-spacing: 0.06rem;
+}
+
+.main-img {
+    margin-left: 40px;
+    flex: 1;
+    display: flex;
+}
+
+#img-main {
+    height: 450px;
+    width: auto;
+    margin: auto;
+    margin-top: calc(150px - 10vw);
+}
+
+#end-section {
+    padding-top: 1rem;
+    min-height: 38rem;
+}
+
+.main-button {
+    background-color: #9bc277;
+    display: flex;
+    width: fit-content;
+    margin: 40px auto auto auto;
+    padding: 0.6rem 1rem;
+    border: solid 2px transparent;
+    border-radius: 30px;
+}
+
+.main-button:hover {
+    border: solid 2px #43790d;
+    transition: all ease-in-out 200ms;
+}
+
+.extraMargin {
+    margin-top: 3rem;
+}
+
+.steps {
+    padding-top: calc(150px - 2vw);
+    padding-bottom: 5%;
+}
+
+.step {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #9bc277;
+    text-align: center;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.step-title {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+#step-link {
+    width: 30%;
+    margin: auto;
+    
+    background-color: rgb(255, 149, 28);
+    width: fit-content;
+    margin: 20px auto 40px auto;
+    padding: 0.5rem 1rem;
+    border: solid 2px transparent;
+    border-radius: 30px;
+}
+
+.footnote {
+    color: darkorange;
+}
+
+@media screen and (max-width: 1000px){
+
+    .main-text {
+        width: 85%;
+    }
+
+    #img-main {
+        height: 400px;
+        margin-top: calc(150px - 10vw);
+    }
+
+    .main-img {
+        margin-left: 20px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 1.5rem;
+    }
+
+    .introduction {
+        margin: 4rem auto;
+    }
+
+    .intro-text h2 {
+        font-size: 38px;
+    }
+
+    #main-section {
+        height: 100vh;
+    }
+
+    .main-text {
+        font-size: 1rem;
+    }
+
+    .main-text h2 {
+        font-size: 1.3rem;
+    }
+
+    #img-main {
+        height: 25rem;
+    }
+
+    .extraMargin {
+        margin-top: 3rem;
+    }
+
+    #end-section {
+        padding-top: 1rem;
+    }
+
+    .step-title {
+        font-size: 1rem;
+    }
+
+    .step {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    #step-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 2rem;
+    }
+
+    .introduction {
+        margin: 3rem auto;
+    }
+
+    #main-section {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #img-main {
+        margin-top: 3rem;
+        height: 22rem;
+    }
+
+    .extraMargin {
+        margin-top: 3rem;
+    }
+
+    #end-section {
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 519px) {
+    section {
+        padding: 1rem;
+    }
+
+    .intro-text h1 {
+        font-size: 8vw;
+    }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFeast</title>
+
+    <!-- GoogleFont: Quicksand -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- GoogleFont: Cabin Sketch -->
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/scrollDown.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logoboks">
+            <a href="index.html" class="logo">
+                <img src="media/Hovedlogo.png"
+                    alt="Image of planet with black circle on top left and cutlery inside the circle" class="logo-img"
+                    id="logo">
+            </a>
+            <h1 class="logonavn"><a href="index.html">EcoFeast</a></h1>
+        </div>
+
+        <input class="sjekkboks" type="checkbox" id="sjekkboks" />
+
+        <label class="hamburgerknapp" for="sjekkboks"><span class="hamburgertekst">Menu</span><span
+                class="ikon"></span></label>
+
+        <ul class="menu">
+            <li class="topNav"><a class="current" href="index.html">Home</a></li>
+            <li><a href="html-files/learnmore.html">Learn More</a></li>
+            <li><a href="html-files/TheApp.html">The App</a></li>
+            <li class="bottomNav"><a href="html-files/privacy.html">FAQ</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="presentation">
+            <div class="introduction">
+                <div class="intro-text">
+                    <h1>Have you ever imagined that <span class="green">climate action</span>
+                        <br> could be easy, fun and <span class="pink"> tasty</span>?</h1>
+                </div>
+                <div class="scrollDown" alt="Scroll down">
+                    <a href="#theproblem" class="scroll">
+                        <div class="mouse">
+                            <span></span>
+                        </div>
+                        <div class="arrow">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-section">
+            <div class="main-text">
+                <div class="paragraph" id="theproblem">
+                    <h1>FACING THE PROBLEM</h1>
+                    <p class="main-p">
+                        Everyone knows that humans are responsible for the emissions of
+                        greenhouse gases that contributes to the global rise in temperature.
+                        What most people don't not know, is that 30% of those emissions comes from
+                        a singular source – food production <a href="https://ourworldindata.org/food-ghg-emissions"
+                            target="_blank" class="footnote">[1]</a>.
+
+                    </p>
+                    <a href="html-files/learnmore.html" class="main-button">Learn More</a>
+                </div>
+
+                <div class="rowflex">
+                    <div class="paragraph2">
+                        <h1>THE SOLUTION</h1>
+                        <p class="second-p">
+                            Enter EcoFeast, an app whose purpose is to point you in the right direction towards a more
+                            environmentally sustainable
+                            eating habit.
+                        </p>
+                        <a href="#end-section" class="main-button">Go to app</a>
+                    </div>
+
+
+
+
+
+                    <div class="main-img">
+                        <img id="img-main" src="media/appSignIn.png"
+                            alt="Image of the login page for EcoFeast where the user can login or register to become a member on mobile">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="end-section">
+            <div class="steps">
+                <div class="step-title">
+                    <h2>How to get started</h2>
+                </div>
+                <div class="step">
+                    <h4>Step 1</h4>
+                    <p>
+                        Start by downloading our app, and begin making your personalised account.
+                        Set up your preferred diet and choose between vegan, vegetarian and pescatarian.
+                    </p>
+                </div>
+                <div class="step">
+                    <h4>Step 2</h4>
+                    <p>
+                        Customize your mealplan and add them to your schedule! Plan ahead weeks or months at a time.
+                        Choose between recipes on the internet, or recipes others have created!
+                    </p>
+                </div>
+                <div class="step">
+                    <h4>Step 3</h4>
+                    <p>
+                        Decide your mealplan and view the recipes you have chosen!
+                    </p>
+                </div>
+                <div class="step" id="step-link"><a href="html-files/TheApp.html">
+                        The App</a>
+                </div>
+
+        </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-div">
+            <div class="footer-left">
+                <div class="footer-logo-div">
+                    <a class="logo-link" href="index.html">
+                        <img src="media/Hovedlogo.png"
+                            alt="Image of planet with black circle on top left and cutlery inside the circle"
+                            class="footer-logo-img"></a>
+                    <a class="logo-link" href="index.html">
+                        <h4 class="footer-logo-text fontSizeM">EcoFeast</h4>
+                    </a>
+                </div>
+                <a class="btnGreen sources" href="html-files/source.html">Sources</a>
+            </div>
+            <ul class="footer-right">
+                <li class="features">
+                    <h2 class="footer-title">Useful links</h2>
+                    <ul class="box">
+                        <li class="footer-link"><a href="index.html">Home</a></li>
+                        <li class="footer-link"><a href="html-files/learnmore.html">Learn more</a></li>
+                        <li class="footer-link"><a href="html-files/TheApp.html">The app</a></li>
+                        <li class="footer-link"><a href="html-files/privacy.html">FAQ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2 class="footer-title">Address</h2>
+                    <ul class="box">
+                        <li>Clara Holsts hus</li>
+                        <li>Pilestredet 46</li>
+                        <li>0167 Oslo</li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="btnGreen upBtn" href="index.html">Back to top</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
